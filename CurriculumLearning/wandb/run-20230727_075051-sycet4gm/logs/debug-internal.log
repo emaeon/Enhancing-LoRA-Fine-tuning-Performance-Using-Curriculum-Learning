@@ -1,0 +1,221 @@
+2023-07-27 07:50:51,205 INFO    StreamThr :749895 [internal.py:wandb_internal():86] W&B internal server running at pid: 749895, started at: 2023-07-27 07:50:51.204351
+2023-07-27 07:50:51,207 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: status
+2023-07-27 07:50:51,216 INFO    WriterThread:749895 [datastore.py:open_for_write():85] open: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/run-sycet4gm.wandb
+2023-07-27 07:50:51,217 DEBUG   SenderThread:749895 [sender.py:send():379] send: header
+2023-07-27 07:50:51,321 DEBUG   SenderThread:749895 [sender.py:send():379] send: run
+2023-07-27 07:50:52,226 INFO    SenderThread:749895 [dir_watcher.py:__init__():211] watching files in: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files
+2023-07-27 07:50:52,226 INFO    SenderThread:749895 [sender.py:_start_run_threads():1122] run started: sycet4gm with start time 1690444251.204746
+2023-07-27 07:50:52,228 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: summary_record
+2023-07-27 07:50:52,230 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: check_version
+2023-07-27 07:50:52,238 INFO    SenderThread:749895 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-27 07:50:52,238 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: check_version
+2023-07-27 07:50:52,297 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: run_start
+2023-07-27 07:50:52,305 DEBUG   HandlerThread:749895 [system_info.py:__init__():31] System info init
+2023-07-27 07:50:52,305 DEBUG   HandlerThread:749895 [system_info.py:__init__():46] System info init done
+2023-07-27 07:50:52,306 INFO    HandlerThread:749895 [system_monitor.py:start():181] Starting system monitor
+2023-07-27 07:50:52,306 INFO    SystemMonitor:749895 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-27 07:50:52,306 INFO    HandlerThread:749895 [system_monitor.py:probe():201] Collecting system info
+2023-07-27 07:50:52,307 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started cpu monitoring
+2023-07-27 07:50:52,307 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started disk monitoring
+2023-07-27 07:50:52,308 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started gpu monitoring
+2023-07-27 07:50:52,308 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started memory monitoring
+2023-07-27 07:50:52,309 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started network monitoring
+2023-07-27 07:50:52,369 DEBUG   HandlerThread:749895 [system_info.py:probe():195] Probing system
+2023-07-27 07:50:52,381 DEBUG   HandlerThread:749895 [gitlib.py:_init_repo():53] git repository is invalid
+2023-07-27 07:50:52,382 DEBUG   HandlerThread:749895 [system_info.py:probe():240] Probing system done
+2023-07-27 07:50:52,382 DEBUG   HandlerThread:749895 [system_monitor.py:probe():210] {'os': 'Linux-5.4.0-137-generic-x86_64-with-glibc2.29', 'python': '3.8.10', 'heartbeatAt': '2023-07-27T07:50:52.369760', 'startedAt': '2023-07-27T07:50:51.188848', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'host': 'main1', 'username': 'work', 'executable': '/usr/bin/python', 'cpu_count': 32, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2693.2124531250006, 'min': 1000.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 2218.282, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.982, 'min': 1000.0, 'max': 3900.0}, {'current': 2798.963, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.137, 'min': 1000.0, 'max': 3900.0}, {'current': 2798.986, 'min': 1000.0, 'max': 3900.0}, {'current': 2802.231, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.102, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.334, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.02, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.015, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.067, 'min': 1000.0, 'max': 3900.0}, {'current': 2798.569, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.008, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.996, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.0, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.862, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.003, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.14, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.187, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.005, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.015, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.728, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.806, 'min': 1000.0, 'max': 3900.0}, {'current': 2156.312, 'min': 1000.0, 'max': 3900.0}, {'current': 2794.709, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.992, 'min': 1000.0, 'max': 3900.0}, {'current': 2801.117, 'min': 1000.0, 'max': 3900.0}, {'current': 2807.175, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.596, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.957, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.063, 'min': 1000.0, 'max': 3900.0}, {'current': 2797.758, 'min': 1000.0, 'max': 3900.0}, {'current': 2788.552, 'min': 1000.0, 'max': 3900.0}, {'current': 2795.72, 'min': 1000.0, 'max': 3900.0}, {'current': 2804.546, 'min': 1000.0, 'max': 3900.0}, {'current': 2801.073, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.808, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.512, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.912, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.959, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.002, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.981, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.787, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.999, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.226, 'min': 1000.0, 'max': 3900.0}, {'current': 2801.331, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.498, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.804, 'min': 1000.0, 'max': 3900.0}, {'current': 2800.081, 'min': 1000.0, 'max': 3900.0}, {'current': 2792.102, 'min': 1000.0, 'max': 3900.0}, {'current': 2801.394, 'min': 1000.0, 'max': 3900.0}, {'current': 2796.767, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.596, 'min': 1000.0, 'max': 3900.0}, {'current': 2797.91, 'min': 1000.0, 'max': 3900.0}, {'current': 2799.996, 'min': 1000.0, 'max': 3900.0}], 'disk': {'total': 439.0408935546875, 'used': 243.2164535522461}, 'gpu': 'CUDA GPU', 'gpu_count': 2, 'gpu_devices': [{'name': 'CUDA GPU', 'memory_total': 34359738368}, {'name': 'CUDA GPU', 'memory_total': 34359738368}], 'memory': {'total': 503.57471466064453}}
+2023-07-27 07:50:52,382 INFO    HandlerThread:749895 [system_monitor.py:probe():211] Finished collecting system info
+2023-07-27 07:50:52,383 INFO    HandlerThread:749895 [system_monitor.py:probe():214] Publishing system info
+2023-07-27 07:50:52,383 DEBUG   HandlerThread:749895 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-07-27 07:50:52,386 DEBUG   HandlerThread:749895 [system_info.py:_save_pip():67] Saving pip packages done
+2023-07-27 07:50:52,388 INFO    HandlerThread:749895 [system_monitor.py:probe():216] Finished publishing system info
+2023-07-27 07:50:52,394 DEBUG   SenderThread:749895 [sender.py:send():379] send: files
+2023-07-27 07:50:52,394 INFO    SenderThread:749895 [sender.py:_save_file():1376] saving file wandb-metadata.json with policy now
+2023-07-27 07:50:52,407 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-27 07:50:52,407 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: stop_status
+2023-07-27 07:50:52,410 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: pause
+2023-07-27 07:50:52,410 INFO    HandlerThread:749895 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-27 07:50:52,410 INFO    HandlerThread:749895 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-27 07:50:52,411 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-27 07:50:52,411 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-27 07:50:52,411 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-27 07:50:52,411 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-27 07:50:52,411 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined disk monitor
+2023-07-27 07:50:52,621 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-27 07:50:52,621 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined memory monitor
+2023-07-27 07:50:52,622 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined network monitor
+2023-07-27 07:50:52,718 DEBUG   SenderThread:749895 [sender.py:send():379] send: telemetry
+2023-07-27 07:50:52,718 DEBUG   SenderThread:749895 [sender.py:send():379] send: stats
+2023-07-27 07:50:53,079 INFO    wandb-upload_0:749895 [upload_job.py:push():131] Uploaded file /tmp/tmpi4sl7v3_wandb/26zf9fnx-wandb-metadata.json
+2023-07-27 07:50:53,228 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_created():272] file/dir created: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-summary.json
+2023-07-27 07:50:53,228 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_created():272] file/dir created: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/requirements.txt
+2023-07-27 07:50:53,228 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_created():272] file/dir created: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-metadata.json
+2023-07-27 07:50:56,720 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: status_report
+2023-07-27 07:50:58,753 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: resume
+2023-07-27 07:50:58,753 INFO    HandlerThread:749895 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-27 07:50:58,754 INFO    HandlerThread:749895 [system_monitor.py:start():181] Starting system monitor
+2023-07-27 07:50:58,754 INFO    SystemMonitor:749895 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-27 07:50:58,755 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started cpu monitoring
+2023-07-27 07:50:58,755 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started disk monitoring
+2023-07-27 07:50:58,756 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started gpu monitoring
+2023-07-27 07:50:58,757 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started memory monitoring
+2023-07-27 07:50:58,757 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started network monitoring
+2023-07-27 07:50:59,234 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_created():272] file/dir created: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/output.log
+2023-07-27 07:50:59,967 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: pause
+2023-07-27 07:50:59,968 INFO    HandlerThread:749895 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-07-27 07:50:59,968 INFO    HandlerThread:749895 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-27 07:50:59,968 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-27 07:50:59,969 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-27 07:50:59,969 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-27 07:50:59,969 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined disk monitor
+2023-07-27 07:50:59,969 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-27 07:51:00,170 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-27 07:51:00,170 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined memory monitor
+2023-07-27 07:51:00,170 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined network monitor
+2023-07-27 07:51:00,171 DEBUG   SenderThread:749895 [sender.py:send():379] send: stats
+2023-07-27 07:51:01,235 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/output.log
+2023-07-27 07:51:02,172 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: status_report
+2023-07-27 07:51:07,173 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: status_report
+2023-07-27 07:51:07,407 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: stop_status
+2023-07-27 07:51:07,407 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: stop_status
+2023-07-27 07:51:11,660 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: resume
+2023-07-27 07:51:11,660 INFO    HandlerThread:749895 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-07-27 07:51:11,660 INFO    HandlerThread:749895 [system_monitor.py:start():181] Starting system monitor
+2023-07-27 07:51:11,661 INFO    SystemMonitor:749895 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-07-27 07:51:11,662 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started cpu monitoring
+2023-07-27 07:51:11,662 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started disk monitoring
+2023-07-27 07:51:11,663 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started gpu monitoring
+2023-07-27 07:51:11,664 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started memory monitoring
+2023-07-27 07:51:11,664 INFO    SystemMonitor:749895 [interfaces.py:start():190] Started network monitoring
+2023-07-27 07:51:11,761 DEBUG   SenderThread:749895 [sender.py:send():379] send: telemetry
+2023-07-27 07:51:11,764 DEBUG   SenderThread:749895 [sender.py:send():379] send: exit
+2023-07-27 07:51:11,764 INFO    SenderThread:749895 [sender.py:send_exit():584] handling exit code: 0
+2023-07-27 07:51:11,764 INFO    SenderThread:749895 [sender.py:send_exit():586] handling runtime: 1
+2023-07-27 07:51:11,766 INFO    SenderThread:749895 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-27 07:51:11,766 INFO    SenderThread:749895 [sender.py:send_exit():592] send defer
+2023-07-27 07:51:11,767 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,767 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 0
+2023-07-27 07:51:11,767 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,767 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-07-27 07:51:11,768 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 1
+2023-07-27 07:51:11,768 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,768 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 1
+2023-07-27 07:51:11,769 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,769 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-07-27 07:51:11,769 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 2
+2023-07-27 07:51:11,769 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,769 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 2
+2023-07-27 07:51:11,770 INFO    HandlerThread:749895 [system_monitor.py:finish():190] Stopping system monitor
+2023-07-27 07:51:11,770 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined cpu monitor
+2023-07-27 07:51:11,770 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-07-27 07:51:11,771 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined disk monitor
+2023-07-27 07:51:11,771 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-07-27 07:51:11,771 DEBUG   SystemMonitor:749895 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-07-27 07:51:11,972 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined gpu monitor
+2023-07-27 07:51:11,972 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined memory monitor
+2023-07-27 07:51:11,972 INFO    HandlerThread:749895 [interfaces.py:finish():202] Joined network monitor
+2023-07-27 07:51:11,973 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,973 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-07-27 07:51:11,973 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 3
+2023-07-27 07:51:11,974 DEBUG   SenderThread:749895 [sender.py:send():379] send: stats
+2023-07-27 07:51:11,974 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,974 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 3
+2023-07-27 07:51:11,975 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,975 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-07-27 07:51:11,975 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 4
+2023-07-27 07:51:11,976 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,976 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 4
+2023-07-27 07:51:11,976 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,976 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-07-27 07:51:11,977 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 5
+2023-07-27 07:51:11,977 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,977 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 5
+2023-07-27 07:51:11,978 DEBUG   SenderThread:749895 [sender.py:send():379] send: summary
+2023-07-27 07:51:11,979 INFO    SenderThread:749895 [sender.py:_save_file():1376] saving file wandb-summary.json with policy end
+2023-07-27 07:51:11,979 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,979 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-07-27 07:51:11,979 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 6
+2023-07-27 07:51:11,980 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:11,980 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 6
+2023-07-27 07:51:11,981 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:11,981 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-07-27 07:51:11,986 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: status_report
+2023-07-27 07:51:12,241 INFO    Thread-12 :749895 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-summary.json
+2023-07-27 07:51:12,319 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 7
+2023-07-27 07:51:12,320 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:12,320 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 7
+2023-07-27 07:51:12,320 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:12,320 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-07-27 07:51:12,765 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-27 07:51:13,206 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 8
+2023-07-27 07:51:13,206 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: poll_exit
+2023-07-27 07:51:13,206 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:13,211 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 8
+2023-07-27 07:51:13,213 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:13,213 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-07-27 07:51:13,215 INFO    SenderThread:749895 [job_builder.py:build():280] Attempting to build job artifact
+2023-07-27 07:51:13,217 INFO    SenderThread:749895 [job_builder.py:build():296] run is notebook based run
+2023-07-27 07:51:13,217 INFO    SenderThread:749895 [job_builder.py:_get_source_type():400] no source found
+2023-07-27 07:51:13,218 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 9
+2023-07-27 07:51:13,219 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:13,220 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 9
+2023-07-27 07:51:13,222 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:13,224 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-07-27 07:51:13,225 INFO    SenderThread:749895 [dir_watcher.py:finish():359] shutting down directory watcher
+2023-07-27 07:51:13,246 INFO    SenderThread:749895 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/output.log
+2023-07-27 07:51:13,247 INFO    SenderThread:749895 [dir_watcher.py:_on_file_modified():289] file/dir modified: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/config.yaml
+2023-07-27 07:51:13,247 INFO    SenderThread:749895 [dir_watcher.py:finish():389] scan: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files
+2023-07-27 07:51:13,254 INFO    SenderThread:749895 [dir_watcher.py:finish():403] scan save: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/config.yaml config.yaml
+2023-07-27 07:51:13,254 INFO    SenderThread:749895 [dir_watcher.py:finish():403] scan save: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-summary.json wandb-summary.json
+2023-07-27 07:51:13,258 INFO    SenderThread:749895 [dir_watcher.py:finish():403] scan save: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/requirements.txt requirements.txt
+2023-07-27 07:51:13,261 INFO    SenderThread:749895 [dir_watcher.py:finish():403] scan save: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-metadata.json wandb-metadata.json
+2023-07-27 07:51:13,261 INFO    SenderThread:749895 [dir_watcher.py:finish():403] scan save: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/output.log output.log
+2023-07-27 07:51:13,265 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 10
+2023-07-27 07:51:13,265 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:13,268 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 10
+2023-07-27 07:51:13,268 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:13,270 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-07-27 07:51:13,278 INFO    SenderThread:749895 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-27 07:51:13,766 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-27 07:51:13,766 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: poll_exit
+2023-07-27 07:51:13,784 INFO    wandb-upload_0:749895 [upload_job.py:push():131] Uploaded file /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/config.yaml
+2023-07-27 07:51:13,906 INFO    wandb-upload_1:749895 [upload_job.py:push():131] Uploaded file /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/wandb-summary.json
+2023-07-27 07:51:13,919 INFO    wandb-upload_2:749895 [upload_job.py:push():131] Uploaded file /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/requirements.txt
+2023-07-27 07:51:13,934 INFO    wandb-upload_3:749895 [upload_job.py:push():131] Uploaded file /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/files/output.log
+2023-07-27 07:51:14,134 INFO    Thread-11 :749895 [sender.py:transition_state():612] send defer: 11
+2023-07-27 07:51:14,135 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:14,135 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 11
+2023-07-27 07:51:14,136 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:14,136 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-07-27 07:51:14,136 INFO    SenderThread:749895 [file_pusher.py:join():164] waiting for file pusher
+2023-07-27 07:51:14,138 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 12
+2023-07-27 07:51:14,138 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:14,139 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 12
+2023-07-27 07:51:14,140 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:14,140 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-07-27 07:51:14,557 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 13
+2023-07-27 07:51:14,557 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:14,558 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 13
+2023-07-27 07:51:14,558 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:14,558 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-07-27 07:51:14,558 INFO    SenderThread:749895 [sender.py:transition_state():612] send defer: 14
+2023-07-27 07:51:14,559 DEBUG   SenderThread:749895 [sender.py:send():379] send: final
+2023-07-27 07:51:14,559 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: defer
+2023-07-27 07:51:14,559 DEBUG   SenderThread:749895 [sender.py:send():379] send: footer
+2023-07-27 07:51:14,559 INFO    HandlerThread:749895 [handler.py:handle_request_defer():170] handle defer: 14
+2023-07-27 07:51:14,560 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: defer
+2023-07-27 07:51:14,560 INFO    SenderThread:749895 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-07-27 07:51:14,561 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: poll_exit
+2023-07-27 07:51:14,562 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: server_info
+2023-07-27 07:51:14,562 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: poll_exit
+2023-07-27 07:51:14,562 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: get_summary
+2023-07-27 07:51:14,562 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: server_info
+2023-07-27 07:51:14,563 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: sampled_history
+2023-07-27 07:51:14,565 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: job_info
+2023-07-27 07:51:14,956 DEBUG   SenderThread:749895 [sender.py:send_request():406] send_request: job_info
+2023-07-27 07:51:14,957 DEBUG   HandlerThread:749895 [handler.py:handle_request():144] handle_request: shutdown
+2023-07-27 07:51:14,958 INFO    HandlerThread:749895 [handler.py:finish():857] shutting down handler
+2023-07-27 07:51:15,566 INFO    WriterThread:749895 [datastore.py:close():294] close: /home/work/CL/largecode/wandb/run-20230727_075051-sycet4gm/run-sycet4gm.wandb
+2023-07-27 07:51:15,957 INFO    SenderThread:749895 [sender.py:finish():1552] shutting down sender
+2023-07-27 07:51:15,957 INFO    SenderThread:749895 [file_pusher.py:finish():159] shutting down file pusher
+2023-07-27 07:51:15,957 INFO    SenderThread:749895 [file_pusher.py:join():164] waiting for file pusher

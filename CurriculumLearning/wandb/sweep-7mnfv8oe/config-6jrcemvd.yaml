@@ -1,0 +1,6 @@
+wandb_version: 1
+
+learning_rate:
+  value: 0.04354369981613879
+scheduler:
+  value: 0.08596359349811762

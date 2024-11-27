@@ -1,0 +1,60 @@
+wandb_version: 1
+
+epochs:
+  desc: null
+  value: 10
+learning_rate:
+  desc: null
+  value: 1.0e-05
+batch_size:
+  desc: null
+  value: 16
+weight_decay:
+  desc: null
+  value: 0.01
+architecture:
+  desc: null
+  value: RoBERTa-base
+dataset:
+  desc: null
+  value: ict
+seed:
+  desc: null
+  value: 42
+_wandb:
+  desc: null
+  value:
+    python_version: 3.8.10
+    cli_version: 0.15.6
+    framework: huggingface
+    huggingface_version: 4.31.0
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1690268256.327754
+    t:
+      1:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 71
+      2:
+      - 1
+      - 5
+      - 11
+      - 49
+      - 53
+      - 55
+      - 71
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.8.10
+      5: 0.15.6
+      6: 4.31.0
+      8:
+      - 1
+      - 5

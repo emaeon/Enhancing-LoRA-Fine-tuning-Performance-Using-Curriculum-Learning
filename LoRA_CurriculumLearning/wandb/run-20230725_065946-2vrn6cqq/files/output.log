@@ -1,0 +1,47 @@
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+Epoch : 1, train_0_step_loss : 2.405033588409424
+1_0_step_정확도 :0.0625
+Epoch : 1, train_32_step_loss : 2.4009954929351807
+1_32_step_정확도 :0.0
+Epoch : 1, train_64_step_loss : 2.490036964416504
+1_64_step_정확도 :0.0
+Epoch : 1, train_96_step_loss : 2.4618337154388428
+1_96_step_정확도 :0.0
+Epoch : 1, train_128_step_loss : 2.360682249069214
+1_128_step_정확도 :0.0625
+Epoch : 1, train_160_step_loss : 2.3665928840637207
+1_160_step_정확도 :0.0625
+Epoch:1, train_187_stepLoss:2.388439377571674
+Epoch:1, train_187_stepacc:0.018617021276595744
+Epoch:1, train_187_stepacc:0.018617021276595744
+Epoch : 1, val_0_step_loss : 2.397216796875
+1_0_step_정확도 :0.0
+Epoch : 1, val_32_step_loss : 2.4437804222106934
+1_32_step_정확도 :0.0
+Epoch:1, val_62_stepLoss:2.385961789933462
+Epoch:1, val_62_stepacc:0.0
+
+ 10%|█         | 1/10 [01:48<16:19, 108.79s/it]
+Epoch : 2, train_0_step_loss : 2.4197144508361816
+2_0_step_정확도 :0.0
+Epoch : 2, train_32_step_loss : 2.418696403503418
+2_32_step_정확도 :0.125
+Epoch : 2, train_64_step_loss : 2.385129928588867
+2_64_step_정확도 :0.0
+Epoch : 2, train_96_step_loss : 2.3987584114074707
+2_96_step_정확도 :0.0
+Epoch : 2, train_128_step_loss : 2.4273037910461426
+2_128_step_정확도 :0.0625
+Epoch : 2, train_160_step_loss : 2.3042428493499756
+2_160_step_정확도 :0.0625
+Epoch:2, train_187_stepLoss:2.3668412997367536
+Epoch:2, train_187_stepacc:0.024933510638297872
+Epoch:2, train_187_stepacc:0.024933510638297872
+Epoch : 2, val_0_step_loss : 2.3973588943481445
+2_0_step_정확도 :0.0
+Epoch : 2, val_32_step_loss : 2.31710147857666
+2_32_step_정확도 :0.0
+Epoch:2, val_62_stepLoss:2.347169966924758
+Epoch:2, val_62_stepacc:0.0
+

@@ -1,0 +1,17 @@
+
+  0%|          | 0/10 [00:00<?, ?it/s]
+Epoch : 1, train_0_step_loss : 2.4428787231445312
+1_0_step_정확도 :0.0625
+Epoch : 1, train_32_step_loss : 2.3199007511138916
+1_32_step_정확도 :0.25
+Epoch : 1, train_64_step_loss : 2.401625156402588
+1_64_step_정확도 :0.0
+Epoch : 1, train_96_step_loss : 2.3037161827087402
+1_96_step_정확도 :0.125
+Epoch : 1, train_128_step_loss : 2.246781349182129
+1_128_step_정확도 :0.375
+Epoch : 1, train_160_step_loss : 2.333749294281006
+1_160_step_정확도 :0.1875
+Epoch:1, train_187_stepLoss:2.341758867527576
+Epoch:1, train_187_stepacc:0.15525265957446807
+
